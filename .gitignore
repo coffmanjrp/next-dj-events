@@ -133,3 +133,11 @@ exports
 *.cache
 build
 .strapi-updater.json
+
+############################
+# Others
+############################
+
+.vscode
+package-lock.json
+yarn.lock
