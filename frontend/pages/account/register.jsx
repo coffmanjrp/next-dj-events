@@ -28,11 +28,6 @@ export default function RegisterPage() {
     }
 
     register({ username, email, password, passwordConfirm });
-
-    setUsername('');
-    setEmail('');
-    setPassword('');
-    setPasswordConfirm('');
   };
 
   return (
