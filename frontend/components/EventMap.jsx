@@ -41,8 +41,6 @@ export default function EventMap({ evt }) {
     return <div>Loading</div>;
   }
 
-  console.log(lat, lng);
-
   return (
     <ReactMapGl
       {...viewport}
